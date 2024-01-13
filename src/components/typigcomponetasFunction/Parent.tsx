@@ -5,9 +5,7 @@ interface Props{
     
 }
 export const Button:React.FC<Props>=(props) =>{
-    return{
-        onDear:'124'
-    };
+    return <button className={props.className}></button>
 };
 
 

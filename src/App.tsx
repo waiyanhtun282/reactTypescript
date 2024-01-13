@@ -1,5 +1,6 @@
 import Components from "./components/Components"
 import { Button } from "./components/TypingEventHandler/Button"
+import { Parent } from "./components/usingHtmlProps/Parent"
 
 const App = () => {
 
@@ -9,9 +10,10 @@ const App = () => {
       <Components />
       {/* <Button  className='px-2 py-2 bg-slate-200 '/> */}
       {/* <Parent /> */}
-      <Button className='text-white bg-slate-50' onClick={() =>{}}>
+      {/* <Button className='text-white bg-slate-50' onClick={() =>{}}>
            CLick
-        </Button>
+        </Button> */}
+        <Parent/>
     </div>
   )
 }
