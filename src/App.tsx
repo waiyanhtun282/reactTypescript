@@ -1,6 +1,5 @@
 import Components from "./components/Components"
-import { Button } from "./components/TypingEventHandler/Button"
-import { Parent } from "./components/usingHtmlProps/Parent"
+import { Parent } from "./components/overridingandRemovingComponentsProps/Parent"
 
 const App = () => {
 
@@ -13,7 +12,9 @@ const App = () => {
       {/* <Button className='text-white bg-slate-50' onClick={() =>{}}>
            CLick
         </Button> */}
-        <Parent/>
+        {/* <Parent/> */}
+        {/* <Parent /> */}
+        
     </div>
   )
 }
