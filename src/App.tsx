@@ -1,12 +1,11 @@
-import Components from "./components/Components"
-import { Parent } from "./components/overridingandRemovingComponentsProps/Parent"
+import { Tags } from "./hooks/callingwithuseStatewtthexcessproperties/Tags"
 
 const App = () => {
 
   return (
     <div>
       app
-      <Components />
+      {/* <Components /> */}
       {/* <Button  className='px-2 py-2 bg-slate-200 '/> */}
       {/* <Parent /> */}
       {/* <Button className='text-white bg-slate-50' onClick={() =>{}}>
@@ -14,7 +13,11 @@ const App = () => {
         </Button> */}
         {/* <Parent/> */}
         {/* <Parent /> */}
-        
+        {/* <Tags />
+         */}
+         {/* <Component /> */}
+       <Tags />
+         
     </div>
   )
 }
