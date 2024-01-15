@@ -1,4 +1,3 @@
-import React from "react"
 
 // navigating jsx types problems
 const Components = () => {

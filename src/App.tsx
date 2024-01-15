@@ -1,4 +1,5 @@
 import { Tags } from "./hooks/callingwithuseStatewtthexcessproperties/Tags"
+import { useTimeout } from './components/solvingerrorwithuseeffect/useTimeOut';
 
 const App = () => {
 
@@ -16,8 +17,8 @@ const App = () => {
         {/* <Tags />
          */}
          {/* <Component /> */}
-       <Tags />
-         
+       {/* <Tags /> */}
+         <useTimeout />
     </div>
   )
 }
