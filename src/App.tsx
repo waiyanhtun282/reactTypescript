@@ -1,5 +1,7 @@
 import { Tags } from "./hooks/callingwithuseStatewtthexcessproperties/Tags"
 import { useTimeout } from './components/solvingerrorwithuseeffect/useTimeOut';
+import { Button } from "./components/TypingEventHandler/Button";
+import { Buttons } from "./components/typingtheuseCallbackhook/Button";
 
 const App = () => {
 
@@ -18,7 +20,8 @@ const App = () => {
          */}
          {/* <Component /> */}
        {/* <Tags /> */}
-         <useTimeout />
+         {/* <useTimeout /> */}
+         <Buttons />
     </div>
   )
 }
