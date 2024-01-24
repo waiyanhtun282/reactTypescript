@@ -1,8 +1,26 @@
-import { Component } from "./components/basicUseReftyping/Component"
+import Home from "./components/waficolar/Union_sring_litreal/Home"
 
 
 const App = () => {
-
+ const parent ={
+  father:'u ba',
+  mother:'daw hla'
+ }
+ const subjects =['PHP',"nodejs","React",'Javascript'];
+ const languages =[
+  {
+    name:'Myanmar',
+    level:5
+  },
+    {
+    name:'English',
+    level:4
+  },
+  {
+    name:'Phys',
+    level:2
+  },
+ ]
   return (
     <div>
       app
@@ -23,7 +41,8 @@ const App = () => {
          {/* <Component /> */}
          {/* <Component /> */}
          {/* <Component /> */}
-         <Component />
+         {/* <Component /> */}
+         <Home   parent={parent} subjects={subjects} languages={languages}/>
     </div>
   )
 }
